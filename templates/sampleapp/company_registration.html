@@ -1,0 +1,13 @@
+<html>
+    <header>
+
+    </header>
+    <body>
+        <form method = 'POST' action=''>
+            {% csrf_token %}
+            {{form}}
+            <input type='submit' name='submit' value='submit'>
+        </form>
+    </body>
+
+</html>
